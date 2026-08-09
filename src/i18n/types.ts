@@ -5,6 +5,11 @@ export type FaqItem = {
   answer: string
 }
 
+export type LegalSection = {
+  title: string
+  paragraphs: string[]
+}
+
 export type Dictionary = {
   meta: {
     title: string
@@ -50,5 +55,24 @@ export type Dictionary = {
   }
   footer: {
     rights: string
+    legalLink: string
+    supportLink: string
+  }
+  legal: {
+    metaTitle: string
+    title: string
+    intro: string
+    lastUpdatedLabel: string
+    lastUpdated: string
+    navPrivacy: string
+    navTerms: string
+    privacy: {
+      title: string
+      sections: LegalSection[]
+    }
+    terms: {
+      title: string
+      sections: LegalSection[]
+    }
   }
 }
