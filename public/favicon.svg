@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" role="img" aria-label="Suporte">
+  <!-- Rounded tile matching app primary -->
+  <rect width="32" height="32" rx="8" fill="#0a0a0a"/>
+  <!-- Life buoy: outer + inner rings -->
+  <circle cx="16" cy="16" r="9.25" stroke="#fafafa" stroke-width="2.25"/>
+  <circle cx="16" cy="16" r="3.75" stroke="#fafafa" stroke-width="2"/>
+  <!-- Diagonal grips (life buoy segments) -->
+  <path
+    d="M8.15 8.15l3.55 3.55M20.3 11.7l3.55-3.55M20.3 20.3l3.55 3.55M11.7 20.3l-3.55 3.55"
+    stroke="#fafafa"
+    stroke-width="2.25"
+    stroke-linecap="round"
+  />
+</svg>
